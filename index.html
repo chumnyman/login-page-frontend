@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./src/style.css">
+  <title>Login Page</title>
+</head>
+
+<body>
+  <main class="form-container">
+    <h1 class="form-header">Sign In</h1>
+    <form onsubmit="return false">
+      <label for="username-email">Username or email:</label>
+      <input type="text" id="username-email" name="username-email" placeholder="username or email">
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" placeholder="password">
+      <button class="form-btn" type="submit">Login</button>
+      <p class="form-aside-text">Or sign up:</p>
+      <a class="form-aside-link" href="signup.html">Sign up</a>
+    </form>
+  </main>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>
